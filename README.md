@@ -11,11 +11,13 @@ curl -L -d "title=hoge&email=test@test.local&message=foo" https://script.google.
 ```
 
 >{デプロイID}は各自の環境依存。
+>GASで作成したAPIはリダイレクトされるので、-Lが必要。
 
 # セットアップ方法
 
 contact.js中のコードを[Googleスプレッドシード]->[拡張機能]->[App Script]のコード中に貼り付けて実行。
 
+> GASのコードの拡張子は.gsだが、ローカルでの取扱やすさのため.jsで保存している。
 > 詳細別途説明予定
 
 # Requirements
