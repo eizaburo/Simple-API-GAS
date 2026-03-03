@@ -1,7 +1,7 @@
 # Simple API GAS
 
-Google App Script用のシンプルなAPI。
-[Simple Basic Web](https://github.com/eizaburo/simple-basic-web)との連携を想定した仕様になっています。
+学習用のシンプルなAPI実装（Google App Script版）
+[Simple Basic Web](https://github.com/eizaburo/simple-basic-web)のextension/api-gasブランチとの連携を想定した仕様になっています。
 
 # 動作確認
 
@@ -18,7 +18,7 @@ curl -L -d "title=hoge&email=test@test.local&message=foo" https://script.google.
 
 ## Web連携（参考）
 
-Simple Basic Webのextension/api-gasブランチをcloneし、api_url値を適切に変更して実装。
+Simple Basic Webのextension/api-gasブランチをcloneし、api_url値を適切に変更して実行。
 
 # セットアップ方法
 
