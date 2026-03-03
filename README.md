@@ -5,6 +5,8 @@ Google App Script用のシンプルなAPI。
 
 # 動作確認
 
+## 単体
+
 とりえずの動作確認はcurl等で以下のように可能。
 
 ```
@@ -13,6 +15,10 @@ curl -L -d "title=hoge&email=test@test.local&message=foo" https://script.google.
 
 >{デプロイID}は各自の環境依存。
 >GASで作成したAPIはリダイレクトされるので、-Lが必要。
+
+## Web連携（参考）
+
+Simple Basic Webのextension/api-gasブランチをcloneし、api_url値を適切に変更して実装。
 
 # セットアップ方法
 
