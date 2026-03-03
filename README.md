@@ -1,10 +1,11 @@
 # Simple API GAS
 
 Google App Script用のシンプルなAPI。
+[Simple Basic Web](https://github.com/eizaburo/simple-basic-web)との連携を想定した仕様になっています。
 
 # 動作確認
 
-APIのURLに対し、以下で動作確認可能。
+とりえずの動作確認はcurl等で以下のように可能。
 
 ```
 curl -L -d "title=hoge&email=test@test.local&message=foo" https://script.google.com/macros/s/{デプロイID}/exec
@@ -30,12 +31,20 @@ contact.js中のコードを[Googleスプレッドシード]->[拡張機能]->[A
 
 ## 技術系
 
-- （Web）APIとは何かを理解、説明できるようにする
+- （Web）APIとは何かを理解し、説明してみる
 
 ## PM系
 
 - APIの仕様書を作成してみる
 - 他の技術でAPIを実装、デプロイしてみる
+
+## テスト系（技術・PM共通）
+
+- このAPIのテスト計画書を作成してみる
+- このASPに対するテストシナリオを作成してみる
+- テストを実行してみる
+- テストを自動実行してみる
+- テスト結果をまとめみる
 
 # ライセンス
 
