@@ -1,4 +1,4 @@
-# Simple API GAS
+# simple-api-gas
 
 学習用のシンプルなAPI実装（Google App Script版）
 [Simple Basic Web](https://github.com/eizaburo/simple-basic-web)のextension/api-gasブランチとの連携を想定した仕様になっています。
