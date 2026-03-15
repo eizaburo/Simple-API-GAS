@@ -29,6 +29,7 @@ curl -L \
 https://script.google.com/macros/s/<デプロイID>/exec
 ```
 
+>-Hはなくても動くみたい。
 
 #### application/x-www-form-urlencoded
 
@@ -38,6 +39,7 @@ curl -L \
 -H "Content-type: application/x-www-form-urlencoded" \
 https://script.google.com/macros/s/{デプロイID}/exec
 ```
+>-Hはなくても動くみたい。
 
 #### curl実行時の注意点
 
