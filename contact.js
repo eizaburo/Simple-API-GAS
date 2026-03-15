@@ -1,3 +1,6 @@
+//
+// application/x-www-form-urlencodedで受け取り、Textで返す
+//
 function doPost(e) {
 
   //パラメータ取得（設定無しなら""を挿入）
