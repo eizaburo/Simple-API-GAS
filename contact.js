@@ -16,11 +16,11 @@ function doPost(e) {
     return ContentService.createTextOutput("問合せタイトルの値が不正です。");
   }
 
-  if (!regex_title.test(email)) {
+  if (!regex_email.test(email)) {
     return ContentService.createTextOutput("Emailの値が不正です。");
   }
 
-  if (!regex_title.test(message)) {
+  if (!regex_message.test(message)) {
     return ContentService.createTextOutput("問合せ内容の値が不正です。");
   }
 
